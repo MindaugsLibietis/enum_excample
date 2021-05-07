@@ -11,19 +11,19 @@ public class Main {
             Day day = Day.valueOf(dayValue.toUpperCase());
             switch (day) {
                 case MONDAY:
-                    System.out.println("Nedeļas sākums");
+                    System.out.println("Begining of the week");
                     break;
                 case TUESDAY:
                 case WEDNESDAY:
                 case THURSDAY:
-                    System.out.println("Nedēļas vidus");
+                    System.out.println("Middle of the week");
                     break;
                 case FRIDAY:
-                    System.out.println("Pēdējā nedēļas darba diena");
+                    System.out.println("Last work day of the week");
                     break;
                 case SATURDAY:
                 case SUNDAY:
-                    System.out.println("Nedēļas nogale");
+                    System.out.println("End of the week");
                     break;
             }
         } else {
